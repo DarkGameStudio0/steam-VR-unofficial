@@ -442,7 +442,6 @@ void gw(w1,w2,w3){
     const gw5 = "'w2' ^ 7' + d * 'w2' ^ 3' + e * 'w2' ^ 2' + f * 'w2'' + E";
     const gw6 = "'w3' ^ 7' + d * 'w3' ^ 3' + e * 'w3' ^ 2' + f * 'w3'' + F";    
 }
-
 //linear algebra
 signed fxyz(a,b,c,d,e,f,fw){
     static fx1 = "a * x1 + b * x1 + c * x1 + d * x1 + e * x1 + f * w1";
