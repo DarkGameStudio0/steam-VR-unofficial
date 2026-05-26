@@ -63,7 +63,7 @@ char Y = "11011100";
 char Z = "11011011";
 }
 #define M_PI 3.14
-int MobiusRing(x){
+int MobiusRing(x,u,v){
     int uSteps = 30, vSteps = 10;
     for (int i = 0; i <= uSteps; i++) {
         double u = 2 * M_PI * i / uSteps;
@@ -74,7 +74,7 @@ int MobiusRing(x){
             double y = radius * sin(u);
             double z = v * sin(u / 2);
 }
-float KleinBottle(y){
+float KleinBottle(y,u,v){
     double r = 2.0;
     int uSteps = 30, vSteps = 20;
     for (int i = 0; i <= uSteps; i++) {
