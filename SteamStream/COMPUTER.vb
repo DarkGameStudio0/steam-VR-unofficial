@@ -587,6 +587,7 @@ spin : [1/2 = 1/2 = 1/2 = 1/2 = 1/2 = 1/2 ]
 mass-spin-propability : [ = = = = = ]
 color : || red && green && blue || 
 End Enum
+      
 Module ParticleData
     Public ReadOnly InfoMap As New Dictionary(Of Particle, Info) From {
         {Particle.UpQuark, New Info("Up Quark", "Quark", "+2/3", "1/2", "2.3 MeV/c²")},
