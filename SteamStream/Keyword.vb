@@ -55,7 +55,7 @@ If
 (Else pos.Z + 1,OrElse pos.Z - 1 , pos.X , pos.Y)
 Return [0,0,1,1]
 End Sub
-Select Case direction
+Select Case direction(grid)
       Case "up"
           If pos.X < 0 Then
                 Movement(grid, New Point(pos.X + 1, pos.Y, pos.Z), direction)
