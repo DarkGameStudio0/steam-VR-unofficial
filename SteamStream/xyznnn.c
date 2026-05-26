@@ -62,6 +62,7 @@ char X = "11011101";
 char Y = "11011100";
 char Z = "11011011";
 }
+#define M_PI 3.14
 int MobiusRing(x){
     int uSteps = 30, vSteps = 10;
     for (int i = 0; i <= uSteps; i++) {
