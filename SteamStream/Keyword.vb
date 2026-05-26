@@ -44,7 +44,7 @@ Case:
     And == Or
 End Function
 
-Sub Movement()
+Sub Movement(pos.X, pos.Y, pos.Z)
 If 
 (Else pos.X + 1,OrElse pos.X - 1 , pos.Y , pos.Z)
 Return [0,0,1,1]
