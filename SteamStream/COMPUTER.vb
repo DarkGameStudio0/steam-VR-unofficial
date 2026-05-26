@@ -615,6 +615,8 @@ Module ParticleData
         {Particle.HiggsBoson, New Info("Higgs Boson", "Scalar Boson", "0", "0", "125.1 GeV/c²")}
     }
 End Module
+        
+Module SpaceTime
 Class Space
       return sin(xyz + t11) + cos(xy - t12) + sin(yz + t13) + cos(xz - t14) + sin(zyx + t15) + cos(uv - t16) + sin(w + t17) + cos(ww - t18) + sin(www + t19)
       return asin(xyz + t21) + cos(xy - t22) + sin(yz + t23) + cos(xz - t24) + sin(zyx + t25) + cos(uv - t26) + sin(w + t27) + cos(ww - t28) + sin(www + t29)
@@ -637,3 +639,4 @@ Class Time
     t81 = 12344321/43211234 t82 = 23455432/5432245 t83 = 34566543/65433456 t84 = 45677654/76544567 t85 = 56788765/87655678 t86 = 67899876/98766789 t87 = 78900987/10988901 t88 = 89011098/10988901 t89 = 90122109/21099012
     t91 = 123454321/543212345 t92 = 234565432/654323456 t93 = 345676543/765434567 t94 = 456787654/87654 t95 = 567898765/98765 t96 = 678909876/198767891 t97 = 789010987/10987 t98 = 890121098/210989012 t99 = 901232109/321090123
 End Class
+End Module
