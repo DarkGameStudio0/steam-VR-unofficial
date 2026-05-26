@@ -1,3 +1,4 @@
+Imports System.Math
 Function permission_level
 a.REM Public 
 b.REM Private
