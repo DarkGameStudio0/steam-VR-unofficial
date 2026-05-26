@@ -62,14 +62,54 @@ char X = "11011101";
 char Y = "11011100";
 char Z = "11011011";
 }
+int MobiusRing(x){
+    int uSteps = 30, vSteps = 10;
+    for (int i = 0; i <= uSteps; i++) {
+        double u = 2 * M_PI * i / uSteps;
+        for (int j = 0; j <= vSteps; j++) {
+            double v = -0.5 + (double)j / vSteps;
+            double radius = 1 + v * cos(u / 2);
+            double x = radius * cos(u);
+            double y = radius * sin(u);
+            double z = v * sin(u / 2);
+}
+float KleinBottle(y){
+    double r = 2.0;
+    int uSteps = 30, vSteps = 20;
+    for (int i = 0; i <= uSteps; i++) {
+        double u = 2 * M_PI * i / uSteps;
+        for (int j = 0; j <= vSteps; j++) {
+            double v = 2 * M_PI * j / vSteps;
+            double factor = r + cos(u / 2) * sin(v) - sin(u / 2) * sin(2 * v);
+            double x = factor * cos(u);
+            double y = factor * sin(u);
+            double z = sin(u / 2) * sin(v) + cos(u / 2) * sin(2 * v);
+}
+double PenroseStair(z){
+    double vertices[5][3] = {
+        {0.0, 0.0, 0.0},
+        {1.0, 0.0, 1.0},
+        {1.0, 1.0, 2.0},
+        {0.0, 1.0, 3.0},
+        {0.0, 0.0, 4.0}  // illusion: ends higher, but visually connects to first
+    };
+    printf("Loop edges (visual paradox):\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Vertex %d: (%.1f, %.1f, %.1f)\n", i, vertices[i][0], vertices[i][1], vertices[i][2]);
+        if (i < 4)
+            printf("  Edge %d → %d\n", i, i+1);
+}
 int CreateBlock(x){
     x^5 + x^4 + x^3 + x^2 + x;
+    return "inline  && extern"
 }
 float CreateBlock(y){
     y^5 + y^4 + y^3 + y^2 + y;
+    return "typedef || struct"
 }
 double DestroyeBlock(z){
     z^5 + z^4 + z^3 + z^2 + z;
+    return ""auto == union"
 } 
 #define NULL 0
 #define Block1 row
