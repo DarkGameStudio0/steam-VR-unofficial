@@ -63,6 +63,7 @@ Function Heptagon
     ReDim 4/7 Implements MyClass
     ReDim 5/7 Implements MyClass
     ReDim 6/7 Implements MyClass
+    ReDim 1 As New Do
 End Function
 
 Enum Inventory
