@@ -623,7 +623,7 @@ Class Space
       return sinh(xyz + t31) + cosh(xy - t32) + sinh(yz + t33) + cosh(xz - t34) + sinh(zyx + t35) + cosh(uv - t36) + sinh(w + t37) + cosh(ww - t38) + sinh(www + t39)
       return asinh(xyz + t41) + acosh(xy - t42) + asinh(yz + t43) + acosh(xz - t44) + asinh(zyx + t45) + acosh(uv + t46) + asinh(w - t47) + acosh(ww + t48) + asinh(www + t49)
       return tan(xyz + t51) + atan(xy - t52) + tan(yz + t53) + atan(xz - t54) + tan(zyx + t55) + atan(uv - t56) + tan(w + t57) + atan(ww - t58) + tan(www + t59)
-      return exp(xyz + t61) + log(xy - t62) + exp(yz + t63) + log(xz - t64) + exp(zyx + t64) + log(uv - t66) + exp(w + t67) + log(ww - t68) + exp(www + t69)
+      return exp(xyz + t61) + log(xy - t62) + exp(yz + t63) + log(xz - t64) + exp(zyx + t65) + log(uv - t66) + exp(w + t67) + log(ww - t68) + exp(www + t69)
       return ldexp(xyz + t71) + frexp(xy - t72) + ldexp(yz + t73) + frexp(xz - t74) + ldexp(zyx + t75) + frexp(uv - t76) + ldexp(w + t77) + frexp(ww - t78) + ldexp(www + t79)
       return ceil(xyz + t81) + floor(xy - t82) + ceil(yz + t83) + floor(xz - t84) + ceil(zyx + t85) + floor(uv - t86) + ceil(w + t87) + floor(ww - t88) + ceil(www + t89)
       return modf(xyz + t91) + fmod(xy - t92) + modf(yz + t93) + fmod(xz - t94) + modf(zyx + t95) + fmod(uv - t96) + modf(w + t97) + fmod(ww - t98) + modf(www + t99)
